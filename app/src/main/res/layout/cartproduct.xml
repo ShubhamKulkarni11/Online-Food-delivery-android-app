@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="181dp"
+        android:layout_margin="10dp"
+        android:background="#E6DD91AC"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/FoodName"
+            android:layout_width="365dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+
+            android:gravity="center_vertical"
+            android:text="TextView"
+            android:textColor="#470259"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="179dp"
+            android:layout_height="41dp"
+            android:layout_below="@+id/FoodName"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="201dp"
+            android:layout_marginRight="201dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/cEdit"
+            android:layout_width="130dp"
+            android:layout_height="52dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="center_vertical"
+            android:text="TextView"
+            android:textColor="#06800C"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/cartTotalPrice"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginRight="33dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="right|center_vertical"
+            android:text="TextView"
+            android:textColor="#BD0D0D"
+            android:textSize="26sp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_red_dark" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

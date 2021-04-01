@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FoodName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   tools:context=".Setting_fragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <EditText
+            android:id="@+id/sreachFoodItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="45dp"
+            android:autofillHints="Search"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="10dp"
+            android:hint="@string/search"
+
+            android:textColor="#132381"
+            tools:ignore="TextFields" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/customerRecycleView"
+
+            android:layout_width="match_parent"
+            android:layout_height="618dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+</FrameLayout>

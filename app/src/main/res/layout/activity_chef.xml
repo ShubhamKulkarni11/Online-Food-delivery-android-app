@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chef">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+>
+
+        <ImageView
+            android:id="@+id/chefImage"
+            android:layout_width="358dp"
+            android:layout_height="275dp"
+            android:layout_margin="25dp"
+            android:src="@drawable/addphoto"
+            />
+
+        <EditText
+            android:id="@+id/foodItemName"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/text_logo"
+            android:drawableLeft="@drawable/food_item"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/food_item_name"
+            android:inputType="textPersonName"
+            android:autofillHints=""
+            android:drawableStart="@drawable/food_item" />
+
+        <EditText
+            android:id="@+id/foodItemDescription"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/text_logo"
+            android:drawableLeft="@drawable/description"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Description"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/foodItemPrice"
+            android:layout_width="365dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/text_logo"
+            android:drawableLeft="@drawable/money"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Price"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/selectImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/text_field"
+            android:text="Select Image"
+            android:textSize="22dp"
+
+            />
+
+        <Button
+            android:id="@+id/UploadItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/text_field"
+            android:text="Upload Item"
+            android:textColor="#E53935"
+            android:textSize="22dp"
+            android:onClick="uploadFoodItem"/>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

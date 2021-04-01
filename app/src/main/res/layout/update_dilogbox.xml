@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EB35E59F"
+            android:gravity="center"
+            android:text="Update Food Item"
+            android:textSize="26sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/dfoodName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/person"
+            android:drawablePadding="5dp" />
+
+        <EditText
+            android:id="@+id/dfoodPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/description"
+            android:drawablePadding="10dp" />
+
+        <EditText
+            android:id="@+id/dfooddescri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/money"
+            android:drawablePadding="10dp" />
+
+        <Button
+            android:id="@+id/dUpdate"
+            android:layout_width="157dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:background="#EB35E59F"
+            android:text="Update"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

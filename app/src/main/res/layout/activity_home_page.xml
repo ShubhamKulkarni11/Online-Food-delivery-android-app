@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp"
+    android:background="@drawable/homepagebg"
+    tools:context=".Homepage">
+
+    <LinearLayout
+        android:layout_width="323dp"
+        android:layout_height="646dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Food shop"
+            android:textColor="#F8CC0C"
+            android:textColorHighlight="#00CA6464"
+            android:textColorLink="#6A3D3D"
+            android:textSize="60sp"
+            android:textStyle="bold|italic"
+            app:fontFamily="cursive" />
+
+        <Button
+            android:id="@+id/customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_gradiant"
+            android:text="Customer"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/shopOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_gradiant"
+            android:text="Shop owner"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

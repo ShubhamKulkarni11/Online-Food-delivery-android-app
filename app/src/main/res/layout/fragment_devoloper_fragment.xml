@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Devoloper_fragment"
+    android:background="#3E4885">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Creating PLatform For street Vendors"
+        android:textColor="#E53935"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shubham Kulkarni"
+        android:textColor="#E53935"
+        android:textSize="24sp"
+        android:paddingLeft="40dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soham Joshi"
+        android:textColor="#E53935"
+        android:textSize="24sp"
+        android:paddingLeft="40dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kajal Kale"
+        android:textColor="#E53935"
+        android:textSize="24sp"
+        android:paddingLeft="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nikita Kakade"
+        android:textColor="#E53935"
+        android:textSize="24sp"
+        android:paddingLeft="40dp"
+        />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Adesh Kothale"
+          android:textColor="#E53935"
+          android:textSize="24sp"
+          android:paddingLeft="40dp"
+          />
+
+
+</LinearLayout>
+</FrameLayout>
+
+
